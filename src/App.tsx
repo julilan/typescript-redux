@@ -1,7 +1,12 @@
 import './App.css';
+import CustomButton from './components/CustomButton/CustomButton';
 
 function App() {
-  return <div className='App'>App will be here</div>;
+  return (
+    <div className='App'>
+      <CustomButton />
+    </div>
+  );
 }
 
 export default App;
